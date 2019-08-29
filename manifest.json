@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "rgbTo16",
+  "version": "1.0",
+  "description": "rgb and hexadecimal color code are interconverted",
+  "browser_action": {
+    "default_popup": "./dist/index.html",
+    "default_icon": "rgbhex.png"
+  },
+  "permissions": ["tabs"],
+  "icons": {
+    "128": "rgbhex.png"
+  }
+}
